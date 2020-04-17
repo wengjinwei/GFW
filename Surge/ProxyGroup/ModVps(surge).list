@@ -1,0 +1,13 @@
+🇭🇰 google香港（v2ray） = vmess, www.cuso1987.tk, 443, username=b261dcc0-9ca1-41ab-9514-27c78acb555c, tls=true, ws=true, ws-path=/5ad45ef6/, ws-headers=Host:"www.cuso1987.tk"
+
+🇭🇰 google香港（snell） = snell, www.cuso1987.tk, 9090, psk=dp200107050, obfs=tls, obfs-host=bing.com, version=2
+
+🇺🇲 搬瓦工洛杉矶（v2ray） = vmess, fanqiang.cuso1985.tk, 443, username=b45ea70a-4436-4b0f-a97e-d16ffda16235, tls=true, ws=true, ws-path=/39466d68/, ws-headers=Host:"fanqiang.cuso1985.tk"
+
+🇺🇲 搬瓦工洛杉矶（trojan） = trojan, fanqiang.cuso1985.tk, 8080, password=dp200107050
+
+🇺🇲 搬瓦工洛杉矶（snell） = snell, fanqiang.cuso1985.tk, 9090, psk=dp200107050, obfs=tls, obfs-host=bing.com, version=2
+
+🇺🇲 pacificrack（snell） = snell, 198.55.96.238, 9090, psk=dp200107050, obfs=tls, obfs-host=bing.com, version=2
+
+  

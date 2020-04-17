@@ -1,0 +1,20 @@
+http=39.100.6.233:8080, fast-open=false, udp-relay=false, tag=🎤 网易云1(阿里云)
+
+http=39.100.6.233:9090, fast-open=false, udp-relay=false, tag=🎤 网易云2(阿里云)
+
+http=34.92.55.89:8080, fast-open=false, udp-relay=false, tag=🎤 网易云3(谷歌云)
+
+http=netease1.edge.iepl.dev:80, fast-open=false, udp-relay=false, tag=🎤 网易云4(rix)
+
+http=netease3.edge.iepl.dev:80, fast-open=false, udp-relay=false, tag=🎤 网易云5(rix)
+
+http=netease2.edge.iepl.dev:8080, fast-open=false, udp-relay=false, tag=🎤 网易云6(rix)
+
+shadowsocks=music.desperadoj.com:30003, method=aes-128-gcm, password=desperadoj.com, fast-open=false, udp-relay=false, tag=🎤 网易云7(tg)
+
+http=106.52.127.72:19951, fast-open=false, udp-relay=false, tag=🎤 网易云8(tg)
+
+
+
+
+
