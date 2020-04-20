@@ -1,0 +1,17 @@
+# > AbemaTV
+user-agent, BOB*, Global
+
+# > BOB体育
+user-agent, BOB体育*, Global
+
+# > 亚博
+user-agent, YaboGmaes*, Global
+
+# > 亚博体育
+user-agent, YaboSports*, Global
+
+# > Bet365
+user-agent, bet365Wrapper, Global
+
+# > 188bet
+user-agent, 188Asia*, Global

@@ -1,0 +1,17 @@
+# > BOB
+USER-AGENT,BOB*
+
+# > BOB体育
+USER-AGENT,BOB体育*
+
+# > 亚博
+USER-AGENT,YaboGmaes*
+
+# > 亚博体育
+USER-AGENT,YaboSports*
+
+# > Bet365
+USER-AGENT,bet365Wrapper
+
+# > 188bet
+USER-AGENT,188Asia*
