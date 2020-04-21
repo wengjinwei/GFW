@@ -1,16 +1,17 @@
 # > AbemaTV
-user-agent, BOB*, DIRECT
+user-agent, *BOB*, DIRECT
 
 # > BOB体育
-user-agent, BOB体育*, DIRECT
+user-agent, *BOB体育*, DIRECT
 
 # > 亚博
-user-agent, YaboGmaes*, DIRECT
+user-agent, *YaboGmaes*, DIRECT
 
 # > 亚博体育
-user-agent, YaboSports*, DIRECT
+user-agent, *YaboSports*, DIRECT
 
 # > Bet365
-user-agent, bet365Wrapper, DIRECT
+user-agent, *bet365Wrapper*, DIRECT
+
 # > 188bet
-user-agent, 188Asia*, DIRECT
+user-agent, *188Asia*, DIRECT
