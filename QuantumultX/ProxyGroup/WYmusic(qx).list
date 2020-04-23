@@ -1,6 +1,6 @@
-http=39.100.6.233:8080, fast-open=false, udp-relay=false, tag=网易云1(阿里云)
+http=39.100.6.233:1010, fast-open=false, udp-relay=false, tag=网易云1(阿里云)
 
-http=39.100.6.233:9090, fast-open=false, udp-relay=false, tag=网易云2(阿里云)
+http=39.100.6.233:2020, fast-open=false, udp-relay=false, tag=网易云2(阿里云)
 
 http=34.92.55.89:8080, fast-open=false, udp-relay=false, tag=网易云3(谷歌云)
 
