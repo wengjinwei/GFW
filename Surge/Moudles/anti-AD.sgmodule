@@ -1,0 +1,7 @@
+#!name=anti-AD
+#!desc=Mod By rainman.
+#!system=ios
+
+[Rule]
+# NobyDa去广告
+DOMAIN-SET,https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Huge_AD_rules.list,REJECT
