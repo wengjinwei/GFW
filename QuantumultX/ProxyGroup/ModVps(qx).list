@@ -1,3 +1,0 @@
-trojan=gcp.cuso.xyz:443, password=dp200107050, over-tls=true, tls-verification=true, fast-open=false, udp-relay=false, tag=gcp香港(trojan)
-
-trojan=bwg.cuso.xyz:443, password=dp200107050, over-tls=true, tls-verification=true, fast-open=false, udp-relay=false, tag=bwg洛杉矶(trojan)
