@@ -1,0 +1,282 @@
+#!name=2. Task - All in one By rainman
+#!desc=该模块为签到脚本合集。
+#!system=ios
+
+[Script]
+
+# NobyDa
+# > 1.京东豆
+京东豆签到 = type=cron,cronexp=0 1 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
+# > 2.爱奇艺
+爱奇艺签到 = type=cron,cronexp=10 1 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/iQIYI-DailyBonus/iQIYI_DailyBonus.js,script-update-interval=0
+# > 3.吾爱破解
+吾爱破解签到 = type=cron,cronexp=20 1 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/52pojieDailyBonus/52pojie.js,script-update-interval=0
+# > 4.哔哩哔哩漫画
+哔哩哔哩漫画签到 = type=cron,cronexp=30 1 0 * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js,script-update-interval=0
+
+# Chavyleung
+# > 5.百度贴吧
+# 先登录,浏览器访问一下: https://tieba.baidu.com 或者 https://tieba.baidu.com/index/
+百度贴吧签到 = type=cron,cronexp=40 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,script-update-interval=0
+# > 6.网易云音乐
+# 浏览器访问并登录: https://music.163.com/m/login
+网易云音乐签到 = type=cron,cronexp=50 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,script-update-interval=0
+# > 7.什么值得买
+# 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
+什么值得买签到 = type=cron,cronexp=0 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,script-update-interval=0
+# > 8.V2EX
+# 浏览器打开https://www.v2ex.com/mission/daily ，待弹出获取成功即可
+V2EX签到 = type=cron,cronexp=10 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js,script-update-interval=0
+# > 9.哔哩哔哩
+# 打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
+哔哩哔哩签到 = type=cron,cronexp=20 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,script-update-interval=0
+# > 如需银瓜子转硬币，取消下方注释
+瓜子转硬币 = type=cron,cronexp=30 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js,script-update-interval=0
+# > 10.威锋论坛
+# 打开浏览器访问: https://www.feng.com`(先登录! 把页面切换为电脑版)
+# 威锋论坛签到 = type=cron,cronexp=40 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js,script-update-interval=0
+# > 11.腾讯视频
+# 1.手机浏览器访问并登录: https://film.qq.com/
+腾讯视频签到 = type=cron,cronexp=50 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,script-update-interval=0
+# > 12.AcFun
+# 打开 APP, 访问下`我的`
+# AcFun签到 = type=cron,cronexp=0 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js,script-update-interval=0
+# > 13.字幕组
+# 网页:打开浏览器访问: http://www.rrys2019.com, App: 打开 APP 即可
+字幕组签到 = type=cron,cronexp=10 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js,script-update-interval=0
+# > 14.喜马拉雅
+# 打开 APP, 访问下右下角`账号`
+喜马拉雅签到 = type=cron,cronexp=20 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js,script-update-interval=0
+# > 15.人人视频
+# 打开 APP, 访问下`个人中心`
+人人视频签到 = type=cron,cronexp=30 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,script-update-interval=0
+# > 16.飞客茶馆
+# 打开 APP, 访问下`个人中心
+飞科茶馆签到 = type=cron,cronexp=40 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js,script-update-interval=0
+# > 17.顺丰速运
+# 打开 APP, 访问下`我的顺丰` > `去签到` (访问下`去签到`的页面即可, 不用点`签到`)
+# 打开 APP或小程序, 访问下`27周年庆`
+# 顺丰速运签到 = type=cron,cronexp=50 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,script-update-interval=0
+# > 18.中国电信
+# 打开 APP 手动签到一次: 访问下右下角 `我` > `签到` (头像下面)
+中国电信签到 = type=cron,cronexp=0 4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js,script-update-interval=0
+# > 19.懂球帝
+# 打开懂球帝 (打开前先杀掉 APP)
+懂球帝签到 = type=cron,cronexp=10 4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/dongqiudi/dongqiudi.js,script-update-interval=0
+# > 20.网易严选
+# 打开 APP, 访问下`个人`>`每日签到`(右上角)
+# 网易严选签到 = type=cron,cronexp=20 4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/yanxuan/yanxuan.js,script-update-interval=0
+# > 21.APK.TW
+# 打开浏览器访问: https://apk.tw `(先登录! 把页面切换为电脑版)
+# APK.TW签到 = type=cron,cronexp=30 4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/apktw/apktw.js,script-update-interval=0
+# > 22.去哪儿
+# 打开 APP 然后手动签到 1 次
+去哪儿签到 = type=cron,cronexp=40 4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.js,script-update-interval=0
+# > 23.CSDN
+# 打开 APP , 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次, 系统提示: `获取Cookie: 成功`
+CSDN签到 = type=cron,cronexp=50 4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.js,script-update-interval=0
+# > 24.芒果TV
+# 打开 APP 然后手动签到 1 次
+# 芒果TV签到 = type=cron,cronexp=0 5 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js,script-update-interval=0
+# > 25.加油广东
+# 打开 APP 然后手动签到 1 次
+# 加油广东签到 = type=cron,cronexp=10 5 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/gdoil/gdoil.js,script-update-interval=0
+# > 26.猫咪音乐
+# 打开 网站 `https://www.maomicd.com` 然后手动签到 1 次
+# 猫咪音乐签到 = type=cron,cronexp=20 5 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/maomicd/maomicd.js,script-update-interval=0
+# > 27.10086
+# 打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
+# 中国移动签到 = type=cron,cronexp=30 5 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.js,script-update-interval=0
+# > 28.米游社
+# 打开 APP
+米游社签到 = type=cron,cronexp=40 5 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mihoyo/mihoyo.js,script-update-interval=0
+# > 29.中国联通
+# 1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
+# 2首页>天天抽奖, 系统提示 `2` 次: `获取Cookie: 成功 (登录抽奖)` 和 `获取Cookie: 成功 (抽奖次数)`
+# 中国联通签到 = type=cron,cronexp=50 5 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js,script-update-interval=0
+# > 30.美团外卖
+# 打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
+美团外卖签到 = type=cron,cronexp=0 6 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js,script-update-interval=0
+# > 31.网易新闻
+# 打开 APP 然后手动签到 1 次
+网易新闻签到 = type=cron,cronexp=10 6 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js,script-update-interval=0
+# > 32.QQ音乐
+# 打开 APP 然后手动签到 1 次
+QQ音乐签到 = type=cron,cronexp=20 6 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.js,script-update-interval=0
+# > 33.
+# 打开 APP , 然后手动签到 1 次, (`首页` > `红包签到`)
+美团签到 = type=cron,cronexp=30 6 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,script-update-interval=0
+
+# > 34.时光相册
+# 打开 APP 然后手动签到 1 次
+时光相册签到 = type=cron,cronexp=40 6 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/everphoto/everphoto.js,script-update-interval=0
+# > 35.百词斩
+# 打开 APP 手动签到一次: 访问下右下角 `我` > `我的铜板` > `加入百词斩小班` > `去查看` > `我的小班进去 领铜板`
+# 百词斩签到 = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bcz/bcz.js,script-update-interval=0,type=cron,cronexp=50 6 0 * * *
+# > 36.叮咚买菜
+# 打开 APP, 访问下`我的`>`积分`
+叮咚买菜签到 = type=cron,cronexp=0 7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,script-update-interval=0
+# > 37.分期乐
+# 打开 APP 手动签到一次: 访问下右下角 `我的` > `乐星` > `签到`
+# `我的` > `账单点击` > `超级乐星日/天天领乐星`
+分期乐签到 = type=cron,cronexp=10 7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.js,script-update-interval=0
+# > 38.樊登读书
+# 打开 APP 手动签到一次: 访问下右下角 `我的` > `签到`
+攀登读书签到 = type=cron,cronexp=20 7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fandeng/fandeng.js,script-update-interval=0
+# > 39.全民K歌
+# 打开 APP 手动签到一次: 访问下右下角 `我的` > `任务中心` > `签到`
+全民K歌签到 = type=cron,cronexp=30 7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/qmkg.js,script-update-interval=0
+# > 40.蔚来
+# 打开 APP 手动签到一次
+# 蔚来签到 = type=cron,cronexp=40 7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nio/nio.js,script-update-interval=0
+# > 41.合创
+# 打开 APP 手动签到一次
+# 合创签到 = type=cron,cronexp=50 7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hycan/hycan.js,script-update-interval=0
+# > 42.海底捞
+# 打开 APP 手动签到一次
+# 海底捞签到 = type=cron,cronexp=0 8 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js,script-update-interval=0
+# > 43.网易考拉
+# 打开 APP 手动签到一次: 访问下右下角 `我的考拉` > `领考拉豆` > `签到`
+网易考拉签到 = type=cron,cronexp=10 8 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wykl/wykl.js,script-update-interval=0
+# > 44.WPS
+# 打开 APP 我 > 签到 (右上角, 不用手动签到)
+# 打开 `我的WPS会员` 小程序 (手动签到)
+WPS签到 = type=cron,cronexp=20 8 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js,script-update-interval=0
+# > 45.七猫小说
+# APP内手动日常签到(观看小视频领取奖励)和新手领福利签到以及幸运大转盘 1 次
+# 七猫小说签到 = type=cron,cronexp=30 8 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qimao/qmnovel.js,script-update-interval=0
+# > 46.苏宁易购
+# 首页 > 签到有礼
+# 首页 > 领取红包
+# 首页  > 天天低价
+苏宁易购签到 = type=cron,cronexp=40 8 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,script-update-interval=0
+# > 47.Zaker
+# 打开App,然后手动签1次
+# Zaker签到 = type=cron,cronexp=50 8 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zaker/zaker.js,script-update-interval=0
+# > 48.不背单词
+# 打开App,然后手动签1次
+# 不背单词签到 = type=cron,cronexp=0 9 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js,script-update-interval=0
+# > 49.豆瓣时间
+# 打开 APP 手动签到一次:  `市集` > `豆瓣时间` > `签到`
+# 豆瓣时间签到 = type=cron,cronexp=10 9 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/dbsj/dbsj.js,script-update-interval=0
+# > 50.哈啰出行
+# 打开 APP 进入签到页面:  `我的` > `有哈有车`
+# 哈啰出行签到 = type=cron,cronexp=20 9 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js,script-update-interval=0
+# > 51.掌上飞车
+# 打开 APP[掌上飞车],然后手动签到 1 次
+# 掌上飞车签到 = type=cron,cronexp=30 9 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zsfc/zsfc.js,script-update-interval=0
+# > 52.趣头条
+# 打开 APP 进入签到:  `右上角` > `签到`
+# 阅读篇数获取Cookie:`小视频`中播放一段时间视频即可获取,具体的阅读篇数奖励请到应用内手动点击
+# 首页金币奖励:此Cookie在首页的推荐中随机出现,随机获取,并不一定会出现。
+趣头条签到 = type=cron,cronexp=40 9 */1 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js,script-update-interval=0
+# >米读
+# 打开 APP 进入`我的` -> `疯狂摇摇乐`,系统提示: `签到:获取Cookie: 成功`
+# 阅读时长获取Cookie:打开 APP 选取文章阅读， `书城` > `任意文章阅读` 等到提示获取Cookie成功即可
+米读签到 = type=cron,cronexp=50 9 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduSign.js,script-update-interval=0
+米读阅读 = type=cron,cronexp=*/1 * * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduRead.js,script-update-interval=0
+# > 多看
+# `我的` > `签到任务` 等到提示获取 Cookie 成功即可
+多看 = type=cron,cronexp=0 10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js,script-update-interval=0
+
+# 其他
+# > 53.微博超话 (By NavePnow)
+# 需要填超话id
+# 打开超话网页(切换到电脑版)，例如 https://weibo.com/p/1008080c5fb650788fe5c7577f0b6ec4a34038，点击 签到/已签到 按钮
+# 微博超话签到 = type=cron,cronexp=50 9 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NavePnow/Scripts/weibo/checkin_surge.js,script-update-interval=0
+# > 54.饿了么 (By @syzzzf)
+# 打开 APP, 访问下`我的`>`签到领红包`(左上角)
+饿了么签到 = type=cron,cronexp=10 10 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=0
+# > 55.斗鱼鱼吧 (By @yyfyyf123)
+#斗鱼鱼吧签到 = type=cron,cronexp=10 10 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/yubaSign.js,script-update-interval=0
+# > 56.携程旅行 (By @barrymchen)
+# 打开App 点击”我的“,然后点击”我的积分“,再点击下面的”签到.任务“即可
+携程旅行签到 = type=cron,cronexp=20 10 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/ctrip.js,script-update-interval=0
+# > 57.京东成长分 (By @barrymchen)
+# 打开京东金融app，“信用”-》“小白成长分”
+京东成长分签到 = type=cron,cronexp=30 10 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jdczf.js,script-update-interval=0
+# > 58.工银e生活 (By @barrymchen)
+# App首页“欢趣签到”,手动签到1次
+工银e生活签到 = type=cron,cronexp=40 10 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/icbc_sign.js,script-update-interval=0
+# > 59.微信小程序-同程艺龙 (By @barrymchen)
+tongc_sign.js = type=cron,cronexp=50 10 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tongc_sign.js,script-update-interval=0
+tongc_info.js = type=cron,cronexp=50 10 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tongc_info.js,script-update-interval=0
+# > 60.京东到家 (By @barrymchen, @GideonSenku & @Macsuny)
+# APP登陆账号后，点击主页’签到‘,即可
+京东到家签到 = type=cron,cronexp=0 11 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,script-update-interval=0
+# > 61.电视家
+# APP登陆账号后，点击底部’赚赚‘进入签到页面,即可获取Cookie.
+电视家签到 = type=cron,cronexp=10 11 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js,script-update-interval=0
+# > 62.快手极速版
+# APP登陆账号后，点击’钱包‘
+快手极速版签到 = type=cron,cronexp=20 11 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js,script-update-interval=0
+# > 63.微信小程序-来客有礼
+# 微信搜索’来客有礼‘小程序,登陆京东账号，点击’领京豆->翻牌‘
+微信小程序-来客有礼签到 = type=cron,cronexp=30 11 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js,script-update-interval=0
+# > 64.中国电信套餐 (By @uchvk & @Macsuny)
+# 下载安装 天翼账号中心 登录
+电信套餐查询 = type=cron,cronexp=40 11 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js,script-update-interval=0
+# > 65.喜马拉雅极速版 (By @Macsuny)
+# APP登陆账号后，点击右下角’福利’选项,即可获取Cookie.
+# 每隔一小时开启一次，每天最多5次，金币账户与标准版不同账户
+# 喜马拉雅极速版签到 = type=cron,cronexp=50 11 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/xmspeed.js,script-update-interval=0
+# > 66.腾讯新闻 (By 红鲤鱼与绿鲤鱼与驴)
+# 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
+腾讯新闻签到 = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,script-update-interval=0
+# > 67.楼兰小说论坛 (By @iNotification)
+# 网页登录 www.lltxt.com 点击 ”我的信息 - 签到 - 开始签到“
+# 楼兰小说签到 = type=cron,cronexp=10 12 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/loulancheck.js,script-update-interval=0
+# > 68.招行信用卡公众号 (By @iNotification)
+# 微信招行信用卡签到 = type=cron,cronexp=20 12 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/cmbchina.js,script-update-interval=0
+# > 69.微信小程序-活动抽奖 (By @makexp & @zZPiglet)
+#打开微信小程序 进入“活动抽奖”，手动签到一次或点击“已签到”
+# 微信小程序-活动抽奖签到 = type=cron,cronexp=30 12 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js,script-update-interval=0
+# > 70.微信喜马拉雅 (By @makexp)
+# 微信小程序 - 喜马拉雅 - 我的： 签到 “ 获取 Cookie
+# 微信小程序-喜马拉雅签到 = type=cron,cronexp=40 12 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/xmly_wc.js,script-update-interval=0
+# > 71.360扫地机 (By @qiaoborui)
+# 首页右上角-签到🎁
+# 360扫地机签到 = type=cron,cronexp=50 12 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/360.js,script-update-interval=0
+# > 72.智行火车
+# > 打开 APP 手动签到一次: 访问下右下角 `个人中心` > `签到`
+智行火车签到 = type=cron,cronexp=0 13 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js,script-update-interval=0
+# > 73.微博 & 微博钱包 (By @Macsuny)
+# 1.打开微博App获取Cookie.获取后请注释或禁用Cookie
+# 2.打开微博钱包点击签到，获取Cookie，
+# 3.钱包已经签到无法获取
+微博(钱包) = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
+# >74. 新浪新闻(By @Macsuny)
+# 1.打开app,点击”我的“=>”签到“，获取第一个Cookie，通知获取信息成功
+# 2.在未签到情况下，先禁用第一条Cookie链接，然后再次进入签到，通知获取签到Cookie成功
+新浪新闻 = type=cron,cronexp=0 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js,script-update-interval=0
+
+
+# 任务脚本
+# > 1.App价格版本监控
+# > 需要填appid
+# App价格版本监控 = type=cron,cronexp=0 0 * * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Neurogram-R/AppMonitor.js,script-update-interval=0
+# > 2.英雄联盟排名 (By @syzzzf)
+# 英雄联盟排名 = type=cron,cronexp=0 0 8 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/lol.js,script-update-interval=0
+# > 3.TestFlight公测监控 (By @syzzzf)
+# 需要自己填appkey
+# TestFlight公测监控 = script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js,script-update-interval=0,type=cron,cronexp=0 0 * * * *
+# > 4.一言
+一言 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,script-update-interval=0,type=cron,cronexp=0 0 8 * * *
+# > 5.每日一句+蚂蚁森林收能量
+每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,script-update-interval=0,type=cron,cronexp=0 30 7 * * *
+# > 6.倒数日
+# > 需要自己修改节日
+倒数日 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/daysmatter.js,script-update-interval=0,type=cron,cronexp=0 0 8 * * *
+# > 7.世界时间
+世界时间 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/time.js,script-update-interval=0,type=cron,cronexp=0 0 8 * * *
+# > 8.疫情查看 (By @Dachaw)
+# > 需要自己改城市
+# 疫情查看 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/nCoV.js,script-update-interval=0,type=cron,cronexp=0 0 8 * * *
+# > 8.疫情辟谣 (By @Dachaw)
+# 疫情辟谣 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/nCoVrumors.js,script-update-interval=0,type=cron,cronexp=0 0 8 * * *
+# > 9.电视节目预告 (By @Macsuny)
+# > var c = “cctv1”
+# > 常用卫视代码北京: btv1 | 湖南: hunan | 浙江: zhejiang|河南: henan| 江苏: jiangsu|广东: guangdong
+# 电视节目预告 = type=cron,cronexp=0 0 8 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tvpreview.js,script-update-interval=0
+# > 10.天气预报
+weather_pro.js = script-path=Scripts/weather_pro.js,script-update-interval=0,type=cron,cronexp=0 8-20/4 * * *

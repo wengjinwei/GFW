@@ -1,0 +1,5 @@
+#!name=0. MitM All Hostnames
+#!desc=使用完毕后请禁用，防止产生不必要的MitM。
+
+[MITM]
+hostname = -*.apple.com, -*.icloud.com, -*.mzstatic.com, -*.crashlytics.com, -*.facebook.com, -*.instagram.com, -*.twitter.com, *
