@@ -5,5 +5,5 @@ hostname = *.musical.ly, *.tiktokv.com, *.byteoversea.com, *.snssdk.com
 # TikTok unlock
 
 (?<=_region=)CN(?=&) url 307 JP
-(?<=&app_version=)15..(?=.?.?&) url 307 1
-(?<=\?version_code=)15..(?=.?.?&) url 307 1 
+(?<=&app_version=)16..(?=.?.?&) url 307 1
+(?<=\?version_code=)16..(?=.?.?&) url 307 1 
