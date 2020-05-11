@@ -1,6 +1,6 @@
 /* wifi_proxy change
 [Script]
-wifi_proxy.js = debug=1,script-path=https://raw.githubusercontent.com/rainman0925/GFW/master/Surge/Scripts/wifi_proxy.js,type=event,event-name=network-changed
+SSID助手 = debug=1,script-path=https://raw.githubusercontent.com/rainman0925/GFW/master/Surge/Scripts/wifi_proxy.js,type=event,event-name=network-changed,control-api=true
 
 PS:记得自己修改WIFI名称
 主要功能:指定Wi-Fi(路由器翻)下,Surge使用直连模式,其他网络下Surge使用规则模式
