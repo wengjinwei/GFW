@@ -1,3 +1,4 @@
+
 /* wifi_proxy change
 [Script]
 SSID助手 = debug=1,script-path=https://raw.githubusercontent.com/rainman0925/GFW/master/Surge/Scripts/wifi_proxy.js,type=event,event-name=network-changed,control-api=true
@@ -9,17 +10,28 @@ PS:记得自己修改WIFI名称
 Rewrite和Scripting依然有效
 */
 
-
-
 var wifiname = $network.wifi.ssid;
-var proxywifi = "lao duan_6G";
-if (wifiname == proxywifi){
-    $surge.setOutboundMode("direct");
-    $notification.post("SSID已启动","Surge已自动变为直连模式","");
-    
-}
-else{
-    $surge.setOutboundMode("rule");
-    $notification.post("SSID已退出","Surge已自动变为规则模式","");
-}
+var proxywifi = ["lao dua","lao dua_5G"];
+for (var i = 0; i < proxywifi.length; i++) {
+	if (wifiname==proxywifi[i]){
+		$surge.setOutboundMode("direct");
+		
+		setTimeout(function(){$notification.post("Meeta_Remind","您目前处于WIFI-Proxy"+"SSID: "+wifiname,"Surge已自动变为直连模式");}, 3000);
+		break;
+		
+	};
+	if (i==proxywifi.length-1){
+		$surge.setOutboundMode("rule");
+		
+		setTimeout(function(){$notification.post("Meeta_Remind","Surge已自动变为规则模式","");}, 3000);
+	
+	}
+	
+	
+};
 $done();
+
+
+
+
+
